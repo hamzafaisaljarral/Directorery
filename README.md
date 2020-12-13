@@ -2,22 +2,25 @@
 Directory of teachers
 To run the project 
 
+1- pip3 install virtualenv
+2- virtualenv env
+3- source env/bin/activate
 
-1- pip install -r requirements.txt
+4- pip3 install -r requirements.txt
 
-2-sudo python manage.py makemigrations
+5-python3 manage.py makemigrations
 
-3-sudo python manage.py migrate
+6- python3 manage.py migrate
 
-4-sudo python manage.py createsuperuser
+7-python3 manage.py createsuperuser
 you set username and password for the admin account you can use admin account to do the entries of teacher in project using csv or one by one.
 
 
-4-sudo python manage.py runserver 8000
+8-python manage.py runserver 8000
 
 
 
-I am using python 2.7 currently in this project below are the screenshots attached of the project 
+I am using python 3 and django 2.2 currently in this project below are the screenshots attached of the project 
 
 
 
