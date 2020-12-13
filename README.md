@@ -43,7 +43,8 @@ I am using python 3 and django 2.2 currently in this project below are the scree
 
 ![image](https://user-images.githubusercontent.com/39766112/101245068-c1d0c600-3723-11eb-98ec-db35cb7066e3.png)
 
-
+#this will import successfully if all subject is not more than 5 
+![image](https://user-images.githubusercontent.com/39766112/102019033-5d001600-3d8a-11eb-8263-f172e88f4a8a.png)
 
 
 
