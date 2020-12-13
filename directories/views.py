@@ -20,7 +20,7 @@ class SearchResultsView(ListView):
     def get_queryset(self): # new
         query = self.request.GET.get('q')
         object_list = Teachers.objects.filter(
-            Q(last_name__startswith=query) 
+            Q(Last_Name__startswith=query) 
         )
         return object_list
 
@@ -31,7 +31,7 @@ class SearchResultsViewSubject(ListView):
     def get_queryset(self): # new
         query = self.request.GET.get('q')
         object_list = Teachers.objects.filter(
-            Q(subjects_taught__icontains=query)
+            Q(Subjects_taught__icontains=query)
         )
         return object_list
 

@@ -8,8 +8,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -192,7 +190,7 @@
   }
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -239,18 +237,18 @@
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h4>Teacher Profile</h4>
-  <div class="row text-center slideanim">
+  <div class="row text-center">
     
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="{{teacher.profile_image}}" alt="Paris" width="400" height="300">
+        <img src="{{teacher.Profile_picture}}" alt="Paris" width="400" height="300">
       
-        <p><strong>{{ teacher.first_name }}</strong></p>
-            <p ><strong>{{ teacher.last_name }}</strong></p>
-            <p ><strong>{{ teacher.Email_address }}</strong></p>
-            <p ><strong>{{ teacher.phone_number }}</strong></p>
-            <p ><strong>{{ teacher.room_number }}</strong></p>
-            <p ><strong>{{ teacher.subjects_taught }}</strong></p>
+        <p><strong>{{ teacher.First_Name }}</strong></p>
+            <p ><strong>{{ teacher.Last_Name }}</strong></p>
+            <p ><strong>{{ teacher.Email_Address }}</strong></p>
+            <p ><strong>{{ teacher.Phone_Number }}</strong></p>
+            <p ><strong>{{ teacher.Room_Number }}</strong></p>
+            <p ><strong>{{ teacher.Subjects_taught }}</strong></p>
         
       </div>
      
@@ -258,50 +256,6 @@
     </div>
   </div><br>
 
- 
-
-   
-
-
-
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
 
 </body>
 </html>

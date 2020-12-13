@@ -1,11 +1,11 @@
 id,first_name,last_name,profile_image,Email_address,phone_number,room_number,subjects_taught
-1,Laticia,Landen,21167.JPG,teacher1@school.com,+971-505-550-507,3a,"Computer science, Physics"
+1,Laticia,Landen,21167.JPG,teacher1@school.com,+971-505-550-507,3a,"Computer science"
 2,Maryjane,Marcum,21196.JPG,teacher2@school.com,+971-585-554-431,1c,Mathematics
 3,Josephina,Janecek,21239.JPG,teach3@school.com,+971-525-557-934,1a,History
-4,Tamela,Tomblin,21309.JPG,teach1@school.com,+971-505-555-353,2d,"geography, Computer science, Biology, Chemistry"
-5,Bernardo,Bains,21309.JPG,teach4@school.com,+971-585-555-644,7a,"Mathematics, Physics"
-6,Cordelia,Carpio,21350.JPG,teach5@school.com,+971-525-556-227,12E,"Computer Science, Maths"
-7,Soon,Shott,21529.JPG,teach6@school.com,+971-585-559-739,11a,"English, Arabic"
-8,Martha,Mcloughlin,21530.jpg,teach7@school.com,+971-505-558-243,7G,"Mathematics, physics, chemistry, biology, history"
+4,Tamela,Tomblin,21309.JPG,teach1@school.com,+971-505-555-353,2d,"geography"
+5,Bernardo,Bains,21309.JPG,teach4@school.com,+971-585-555-644,7a,"Mathematics"
+6,Cordelia,Carpio,21350.JPG,teach5@school.com,+971-525-556-227,12E,"Computer Science"
+7,Soon,Shott,21529.JPG,teach6@school.com,+971-585-559-739,11a,"English"
+8,Martha,Mcloughlin,21530.jpg,teach7@school.com,+971-505-558-243,7G,"Mathematics"
 9,Arlinda,Arehart,21578.jpg,teach8@school.com,+971-585-555-882,8b,History
-10,Bernardo,Bains,21744.JPG,teach9@school.com,+971-545-557-899,4c,"Physics, Biology"
+10,Bernardo,Bains,21744.JPG,teach9@school.com,+971-545-557-899,4c,"Physics"
