@@ -3,15 +3,6 @@ from __future__ import unicode_literals
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.core.exceptions import ValidationError
-class Subject(models.Model):
-    name = models.CharField(max_length=200)
-
-    def __str__(self):
-        return self.name
-    class Meta:
-        ordering = ['name']    
-    #c = Subject(name="Computer science", name="Physics",name="Mathematics",name="History",name="geography",name="Biology",name="Chemistry",name="Maths",name="English",name="")
-    #c.save(
 
 class Teachers(models.Model):
     """models for the teacher."""

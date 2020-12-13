@@ -5,7 +5,7 @@
 
 from import_export.admin import ImportExportModelAdmin
 from django.contrib import admin
-from .models import Teachers,Subject
+from .models import Teachers
 from import_export import resources
 from django.core.exceptions import ValidationError
 from import_export.fields import Field

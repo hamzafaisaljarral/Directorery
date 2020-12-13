@@ -1,6 +1,5 @@
 Django==2.2
 argparse
 gunicorn
-wsgiref
 Pillow
 django-import-export
